@@ -1,4 +1,4 @@
-# 欢迎使用多端画廊组件(ynGrally)
+# 欢迎使用多端画廊组件(ynGallery)
 
 @(组件)[画廊|影讯|图展|滑动|grally|Swiper|vue|uni-app|]
 
@@ -49,7 +49,7 @@
 
 ![enter image description here](https://github.com/UserWenxin/ynGallery-for-uniapp/blob/master/imgs/2.png?raw=true)
      
-### ynGrally参数列表
+### ynGallery参数列表
 
 | 参数           |类型    |  默认值   | 说明    |
 | :--------     |------  | --------:| :--:    |
