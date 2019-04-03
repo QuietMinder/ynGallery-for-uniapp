@@ -8,7 +8,9 @@
 
 这是微信开发工具上的gif截图(由于gif 200多色的限制，背景看起来光晕，其实很平滑的)
 
-### 使用（开发工具 Hbuilder X ver 1.8 或 以上 本组件同时发布在 uniapp上 https://ext.dcloud.net.cn/plugin?id=282）
+### 使用（开发工具 Hbuilder X ver 1.8 或 以上）
+
+>本组件同时发布在 uniapp上 https://ext.dcloud.net.cn/plugin?id=282 
 
 #####  准备
 >将ynGallery.vue文件放到你项目的components/YnComponents/ynGallery目录下
