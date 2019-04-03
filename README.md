@@ -10,8 +10,7 @@
 
 ### 使用（开发工具 Hbuilder X ver 1.8 或 以上）
 
-在components目录下，创建一个目录YnComponents 在此目录下创建2个文件夹ynGallery 和 ynTriangleBadge，分别下载ynGallery.vue和ynTriangleBadge.vue
-放到刚创建的目录下！也可以参考demo例子，直接复制Demo中YnComponents目录到你的项目下！
+在你项目components目录下，创建一个目录YnComponents 在此目录下创建2个文件夹ynGallery 和 ynTriangleBadge，分别下载ynGallery.vue和ynTriangleBadge.vue放到刚创建的对应目录下！也可以参考demo例子，直接复制Demo项目中的YnComponents目录到你的项目components目录中！
 
 
 ##### 先在`<script>`处引用
