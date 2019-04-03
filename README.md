@@ -19,7 +19,7 @@
 ##### 接着注册   
          components: {ynGallery}
 
-#####简单的一句话 调用
+##### 简单的一句话 调用
       <ynGallery :images="testimgs" ></ynGallery> 
       
       其中示例数组testimg格式：
@@ -42,7 +42,7 @@
 ![enter image description here](https://github.com/UserWenxin/ynGallery-for-uniapp/blob/master/imgs/2.png?raw=true)
 
 
-#####详细的调用代码（参数值基本是默认值，可以不填 也可以根据需要修改）：
+##### 详细的调用代码（参数值基本是默认值，可以不填 也可以根据需要修改）：
      	<ynGallery  					          
 		  :galleryheight="165" 
 		   bkstart="#000000"                     
@@ -102,4 +102,4 @@
 
 
 
-#### 结束  感谢！
+#### 结束感谢！
