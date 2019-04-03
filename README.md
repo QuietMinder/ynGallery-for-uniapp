@@ -8,11 +8,13 @@
 
 这是微信开发工具上的gif截图(由于gif 200多色的限制，背景看起来光晕，其实很平滑的)
 
-### 使用
+### 使用（开发工具 Hbuilder X ver 1.8 或 以上）
 
-将下载的包内components\YnComponents文件夹复制到 components目录下
+在components目录下，创建一个目录YnComponents 在此目录下创建2个文件夹ynGallery 和 ynTriangleBadge，分别下载ynGallery.vue和ynTriangleBadge.vue
+放到刚创建的目录下！也可以参考demo例子，直接复制Demo中YnComponents目录到你的项目下！
 
- 然后`<script>`处引用
+
+##### 先在`<script>`处引用
 
          import ynGallery from 'components/YnComponents/ynGallery/ynGallery.vue
          
