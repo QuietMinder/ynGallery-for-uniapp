@@ -8,9 +8,12 @@
 
 这是微信开发工具上的gif截图(由于gif 200多色的限制，背景看起来光晕，其实很平滑的)
 
-### 使用（开发工具 Hbuilder X ver 1.8 或 以上）
+### 使用（开发工具 Hbuilder X ver 1.8 或 以上 本组件同时发布在 uniapp上 https://ext.dcloud.net.cn/plugin?id=282）
 
-在你项目components目录下，创建一个目录YnComponents 在此目录下创建2个文件夹ynGallery 和 ynTriangleBadge，分别下载ynGallery.vue和ynTriangleBadge.vue放到刚创建的对应目录下！也可以参考demo例子，直接复制Demo项目中的YnComponents目录到你的项目components目录中！
+#####  准备
+>将ynGallery.vue文件放到你项目的components/YnComponents/ynGallery目录下
+将ynTriangleBadge.vue文件放到你项目components/YnComponents/ynTriangleBadge目录下  
+可以Demo示例
 
 
 ##### 先在`<script>`处引用
