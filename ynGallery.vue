@@ -214,7 +214,6 @@
 			clickimg(idx, imgviewobj) {
 				this.activeviewindex = idx			
 				this.scrollLeft = this.sviewlst.imgsview[idx].l - parseInt(this.screencenterpos) + parseInt(this.sviewlst.imgsview[idx].w / 2);
-                imgviewobj.index=idx;
 				this.$emit('clickimg',imgviewobj)
 			},
 
@@ -277,7 +276,7 @@
 				var i = 0;
 				while (i <= this.images.length - 1) {
 					
-					let obj = {
+					let obj = {    index:i,
 						           url:'',               //源  
 								   dec:'',               //图像描述信息
 								   badeg:'',             //角标文字
@@ -414,9 +413,7 @@
 						var ai = that.activeviewindex;
 						var TTT = setTimeout(function() {
 							if (that.activeviewindex == ai) {
-								let imgviewobj=that.sviewlst.imgsview[that.activeviewindex];
-								imgviewobj.index=that.activeviewindex;
-								that.$emit('clickimg',imgviewobj);
+								that.$emit('clickimg',that.sviewlst.imgsview[that.activeviewindex]);
 							}
 						}, 300)
 					}
