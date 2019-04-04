@@ -12,13 +12,11 @@
 
 >本组件同时发布在 uniapp上 https://ext.dcloud.net.cn/plugin?id=282 
 
-#####  准备
->将ynGallery.vue文件放到你项目的components/YnComponents/ynGallery目录下
-将ynTriangleBadge.vue文件放到你项目components/YnComponents/ynTriangleBadge目录下  
-可以Demo示例
+#####  快速使用
+>组件我放在了压缩包内示例项目`ynGalleryDemo` 的components\YnComponents 下了，可以用示例工程测试效果！
 
-
-##### 先在`<script>`处引用
+##### 以下是基本调用：
+##### script处引用
 
          import ynGallery from 'components/YnComponents/ynGallery/ynGallery.vue
          
@@ -83,17 +81,18 @@
 | images        |Object  |          |  图源数组对象，结构看下面说明      |
 
 ##### images图源数组成员对象结构：		 
-              imgobj:{dec:'',                   //图像描述信息
-				      badeg:'',                 //角标文字
-				      badegcolor:'#000000',     //角标颜色
-				      url:'',                   //图源  
-				      dominant:''               //主色  
-				      }    
+              imgobj:{index:0,
+                      dec:'',                   //图像描述信息
+		      badeg:'',                 //角标文字
+		      badegcolor:'#000000',     //角标颜色
+		      url:'',                   //图源  
+		      dominant:''               //主色  
+	              }   
 
 ##### 事件
     名称：clickimg：  
     参数：clickimg(imgviewobj)
-    其中  imgviewobj：基本结构同上imgobj，其中增加imgviewobj.index (表示当前焦点图)
+    其中  imgviewobj：基本结构同上imgobj，其中imgviewobj.index (表示当前焦点图)
          
           
 
